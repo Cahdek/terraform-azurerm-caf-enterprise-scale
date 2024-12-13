@@ -75,7 +75,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.107"
+      version = "4.12.0"
     }
   }
 }
@@ -186,7 +186,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (~> 1.13, != 1.13.0)
 
-- <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (~> 3.108)
+- <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (4.12.0)
 
 - <a name="requirement_random"></a> [random](#requirement\_random) (~> 3.6)
 
