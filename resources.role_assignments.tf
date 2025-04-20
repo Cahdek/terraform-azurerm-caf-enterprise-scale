@@ -75,9 +75,9 @@ resource "azurerm_role_assignment" "policy_assignment" {
   for_each = local.empty_map
 
   # Mandatory resource attributes
-  name         = basename(each.key)
-  scope        = each.value.scope_id
-  principal_id = each.value.principal_id
+  role_definition_name = basename(each.key)
+  scope                = each.value.scope_id
+  principal_id         = each.value.principal_id
 
 }
 
